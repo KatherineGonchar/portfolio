@@ -88,7 +88,7 @@ nav{
     font-family: var(--default-font-family);
 }
 .logo{
-    max-height: 40px;
+    max-height: 60px;
 }
 .active{
     color: var(--primary-color) !important;
@@ -130,7 +130,7 @@ footer .social-links a:hover{
     background: var(--primary-color);
 }
 @media (max-width: 900px) {
-    h1{
+    h1, .content h1{
         font-size: 44px;
         line-height: 56px;
     }
@@ -147,5 +147,10 @@ footer .social-links a:hover{
     .project-description{
         padding: 0;
         text-align: center;
+    }
+    .portfolio-img{
+        max-height: 400px;
+        display: block;
+        margin: 0 auto;
     }
 }
